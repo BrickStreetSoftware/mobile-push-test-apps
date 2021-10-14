@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'APNS iPhone Test AppTests' target in the 'APNS iPhone Test AppTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

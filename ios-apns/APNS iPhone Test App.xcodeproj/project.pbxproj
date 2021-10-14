@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8462A37140FF64F000E464A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8462A36140FF64F000E464A /* UIKit.framework */; };
+		B8462A39140FF64F000E464A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8462A38140FF64F000E464A /* Foundation.framework */; };
+		B8462A3B140FF64F000E464A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8462A3A140FF64F000E464A /* CoreGraphics.framework */; };
+		B8462A41140FF64F000E464A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8462A3F140FF64F000E464A /* InfoPlist.strings */; };
+		B8462A44140FF64F000E464A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8462A43140FF64F000E464A /* main.m */; };
+		B8462A47140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8462A46140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.m */; };
+		B8462A4A140FF64F000E464A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8462A48140FF64F000E464A /* MainWindow.xib */; };
+		B8462A4D140FF64F000E464A /* APNS_iPhone_Test_AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8462A4C140FF64F000E464A /* APNS_iPhone_Test_AppViewController.m */; };
+		B8462A50140FF64F000E464A /* APNS_iPhone_Test_AppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8462A4E140FF64F000E464A /* APNS_iPhone_Test_AppViewController.xib */; };
+		B8462A57140FF64F000E464A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8462A36140FF64F000E464A /* UIKit.framework */; };
+		B8462A58140FF64F000E464A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8462A38140FF64F000E464A /* Foundation.framework */; };
+		B8462A59140FF64F000E464A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8462A3A140FF64F000E464A /* CoreGraphics.framework */; };
+		B8462A61140FF64F000E464A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8462A5F140FF64F000E464A /* InfoPlist.strings */; };
+		B8462A64140FF64F000E464A /* APNS_iPhone_Test_AppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B8462A63140FF64F000E464A /* APNS_iPhone_Test_AppTests.h */; };
+		B8462A66140FF64F000E464A /* APNS_iPhone_Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8462A65140FF64F000E464A /* APNS_iPhone_Test_AppTests.m */; };
+		B8462A7014101E61000E464A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8462A6F14101E61000E464A /* logo.png */; };
+		B8ABE09C1411515F00314B40 /* Brick Street Software Logo iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8ABE09B1411515F00314B40 /* Brick Street Software Logo iPhone.png */; };
+		B8ABE09E141155E200314B40 /* Brick Street Software Logo iPhone bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B8ABE09D141155E200314B40 /* Brick Street Software Logo iPhone bg.png */; };
+		B8ABE0A314115D0300314B40 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8ABE0A214115D0300314B40 /* Entitlements.plist */; };
+		B8B726BA19D9E3C400901BA5 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B726B819D9E3C400901BA5 /* SetupViewController.m */; };
+		B8B726BB19D9E3C400901BA5 /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B726B919D9E3C400901BA5 /* SetupViewController.xib */; };
+		B8E5251D19CA206300F3F2B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E5251C19CA206300F3F2B1 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8462A5A140FF64F000E464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8462A29140FF64F000E464A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8462A31140FF64F000E464A;
+			remoteInfo = "APNS iPhone Test App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8462A32140FF64F000E464A /* PushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8462A36140FF64F000E464A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8462A38140FF64F000E464A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8462A3A140FF64F000E464A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8462A3E140FF64F000E464A /* APNS iPhone Test App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNS iPhone Test App-Info.plist"; sourceTree = "<group>"; };
+		B8462A40140FF64F000E464A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8462A42140FF64F000E464A /* APNS iPhone Test App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APNS iPhone Test App-Prefix.pch"; sourceTree = "<group>"; };
+		B8462A43140FF64F000E464A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8462A45140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNS_iPhone_Test_AppAppDelegate.h; sourceTree = "<group>"; };
+		B8462A46140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNS_iPhone_Test_AppAppDelegate.m; sourceTree = "<group>"; };
+		B8462A49140FF64F000E464A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B8462A4B140FF64F000E464A /* APNS_iPhone_Test_AppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNS_iPhone_Test_AppViewController.h; sourceTree = "<group>"; };
+		B8462A4C140FF64F000E464A /* APNS_iPhone_Test_AppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNS_iPhone_Test_AppViewController.m; sourceTree = "<group>"; };
+		B8462A4F140FF64F000E464A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APNS_iPhone_Test_AppViewController.xib; sourceTree = "<group>"; };
+		B8462A56140FF64F000E464A /* APNS iPhone Test AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APNS iPhone Test AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8462A5E140FF64F000E464A /* APNS iPhone Test AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNS iPhone Test AppTests-Info.plist"; sourceTree = "<group>"; };
+		B8462A60140FF64F000E464A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8462A62140FF64F000E464A /* APNS iPhone Test AppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APNS iPhone Test AppTests-Prefix.pch"; sourceTree = "<group>"; };
+		B8462A63140FF64F000E464A /* APNS_iPhone_Test_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNS_iPhone_Test_AppTests.h; sourceTree = "<group>"; };
+		B8462A65140FF64F000E464A /* APNS_iPhone_Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNS_iPhone_Test_AppTests.m; sourceTree = "<group>"; };
+		B8462A6F14101E61000E464A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B8ABE09B1411515F00314B40 /* Brick Street Software Logo iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brick Street Software Logo iPhone.png"; sourceTree = "<group>"; };
+		B8ABE09D141155E200314B40 /* Brick Street Software Logo iPhone bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brick Street Software Logo iPhone bg.png"; sourceTree = "<group>"; };
+		B8ABE0A214115D0300314B40 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		B8B726B719D9E3C400901BA5 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		B8B726B819D9E3C400901BA5 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		B8B726B919D9E3C400901BA5 /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		B8E5251C19CA206300F3F2B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8462A2F140FF64F000E464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8462A37140FF64F000E464A /* UIKit.framework in Frameworks */,
+				B8462A39140FF64F000E464A /* Foundation.framework in Frameworks */,
+				B8462A3B140FF64F000E464A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8462A52140FF64F000E464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8462A57140FF64F000E464A /* UIKit.framework in Frameworks */,
+				B8462A58140FF64F000E464A /* Foundation.framework in Frameworks */,
+				B8462A59140FF64F000E464A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8462A27140FF64F000E464A = {
+			isa = PBXGroup;
+			children = (
+				B8E5251C19CA206300F3F2B1 /* Default-568h@2x.png */,
+				B8ABE0A214115D0300314B40 /* Entitlements.plist */,
+				B8ABE09D141155E200314B40 /* Brick Street Software Logo iPhone bg.png */,
+				B8ABE09B1411515F00314B40 /* Brick Street Software Logo iPhone.png */,
+				B8462A3C140FF64F000E464A /* APNS iPhone Test App */,
+				B8462A5C140FF64F000E464A /* APNS iPhone Test AppTests */,
+				B8462A35140FF64F000E464A /* Frameworks */,
+				B8462A33140FF64F000E464A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8462A33140FF64F000E464A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8462A32140FF64F000E464A /* PushTest.app */,
+				B8462A56140FF64F000E464A /* APNS iPhone Test AppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8462A35140FF64F000E464A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8462A36140FF64F000E464A /* UIKit.framework */,
+				B8462A38140FF64F000E464A /* Foundation.framework */,
+				B8462A3A140FF64F000E464A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8462A3C140FF64F000E464A /* APNS iPhone Test App */ = {
+			isa = PBXGroup;
+			children = (
+				B8462A45140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.h */,
+				B8462A46140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.m */,
+				B8462A48140FF64F000E464A /* MainWindow.xib */,
+				B8462A4B140FF64F000E464A /* APNS_iPhone_Test_AppViewController.h */,
+				B8B726B719D9E3C400901BA5 /* SetupViewController.h */,
+				B8B726B819D9E3C400901BA5 /* SetupViewController.m */,
+				B8B726B919D9E3C400901BA5 /* SetupViewController.xib */,
+				B8462A4C140FF64F000E464A /* APNS_iPhone_Test_AppViewController.m */,
+				B8462A4E140FF64F000E464A /* APNS_iPhone_Test_AppViewController.xib */,
+				B8462A3D140FF64F000E464A /* Supporting Files */,
+			);
+			path = "APNS iPhone Test App";
+			sourceTree = "<group>";
+		};
+		B8462A3D140FF64F000E464A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8462A6F14101E61000E464A /* logo.png */,
+				B8462A3E140FF64F000E464A /* APNS iPhone Test App-Info.plist */,
+				B8462A3F140FF64F000E464A /* InfoPlist.strings */,
+				B8462A42140FF64F000E464A /* APNS iPhone Test App-Prefix.pch */,
+				B8462A43140FF64F000E464A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8462A5C140FF64F000E464A /* APNS iPhone Test AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8462A63140FF64F000E464A /* APNS_iPhone_Test_AppTests.h */,
+				B8462A65140FF64F000E464A /* APNS_iPhone_Test_AppTests.m */,
+				B8462A5D140FF64F000E464A /* Supporting Files */,
+			);
+			path = "APNS iPhone Test AppTests";
+			sourceTree = "<group>";
+		};
+		B8462A5D140FF64F000E464A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8462A5E140FF64F000E464A /* APNS iPhone Test AppTests-Info.plist */,
+				B8462A5F140FF64F000E464A /* InfoPlist.strings */,
+				B8462A62140FF64F000E464A /* APNS iPhone Test AppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8462A31140FF64F000E464A /* APNS iPhone Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8462A69140FF64F000E464A /* Build configuration list for PBXNativeTarget "APNS iPhone Test App" */;
+			buildPhases = (
+				B8462A2E140FF64F000E464A /* Sources */,
+				B8462A2F140FF64F000E464A /* Frameworks */,
+				B8462A30140FF64F000E464A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APNS iPhone Test App";
+			productName = "APNS iPhone Test App";
+			productReference = B8462A32140FF64F000E464A /* PushTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8462A55140FF64F000E464A /* APNS iPhone Test AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8462A6C140FF64F000E464A /* Build configuration list for PBXNativeTarget "APNS iPhone Test AppTests" */;
+			buildPhases = (
+				B8462A51140FF64F000E464A /* Sources */,
+				B8462A52140FF64F000E464A /* Frameworks */,
+				B8462A53140FF64F000E464A /* Resources */,
+				B8462A54140FF64F000E464A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8462A5B140FF64F000E464A /* PBXTargetDependency */,
+			);
+			name = "APNS iPhone Test AppTests";
+			productName = "APNS iPhone Test AppTests";
+			productReference = B8462A56140FF64F000E464A /* APNS iPhone Test AppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8462A29140FF64F000E464A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					B8462A31140FF64F000E464A = {
+						DevelopmentTeam = KWQSWS878K;
+					};
+				};
+			};
+			buildConfigurationList = B8462A2C140FF64F000E464A /* Build configuration list for PBXProject "APNS iPhone Test App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8462A27140FF64F000E464A;
+			productRefGroup = B8462A33140FF64F000E464A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8462A31140FF64F000E464A /* APNS iPhone Test App */,
+				B8462A55140FF64F000E464A /* APNS iPhone Test AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8462A30140FF64F000E464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8462A41140FF64F000E464A /* InfoPlist.strings in Resources */,
+				B8B726BB19D9E3C400901BA5 /* SetupViewController.xib in Resources */,
+				B8462A4A140FF64F000E464A /* MainWindow.xib in Resources */,
+				B8462A50140FF64F000E464A /* APNS_iPhone_Test_AppViewController.xib in Resources */,
+				B8462A7014101E61000E464A /* logo.png in Resources */,
+				B8ABE09C1411515F00314B40 /* Brick Street Software Logo iPhone.png in Resources */,
+				B8E5251D19CA206300F3F2B1 /* Default-568h@2x.png in Resources */,
+				B8ABE09E141155E200314B40 /* Brick Street Software Logo iPhone bg.png in Resources */,
+				B8ABE0A314115D0300314B40 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8462A53140FF64F000E464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8462A61140FF64F000E464A /* InfoPlist.strings in Resources */,
+				B8462A64140FF64F000E464A /* APNS_iPhone_Test_AppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8462A54140FF64F000E464A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8462A2E140FF64F000E464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B726BA19D9E3C400901BA5 /* SetupViewController.m in Sources */,
+				B8462A44140FF64F000E464A /* main.m in Sources */,
+				B8462A47140FF64F000E464A /* APNS_iPhone_Test_AppAppDelegate.m in Sources */,
+				B8462A4D140FF64F000E464A /* APNS_iPhone_Test_AppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8462A51140FF64F000E464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8462A66140FF64F000E464A /* APNS_iPhone_Test_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8462A5B140FF64F000E464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8462A31140FF64F000E464A /* APNS iPhone Test App */;
+			targetProxy = B8462A5A140FF64F000E464A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8462A3F140FF64F000E464A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8462A40140FF64F000E464A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8462A48140FF64F000E464A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8462A49140FF64F000E464A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B8462A4E140FF64F000E464A /* APNS_iPhone_Test_AppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8462A4F140FF64F000E464A /* en */,
+			);
+			name = APNS_iPhone_Test_AppViewController.xib;
+			sourceTree = "<group>";
+		};
+		B8462A5F140FF64F000E464A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8462A60140FF64F000E464A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8462A67140FF64F000E464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6985fe93-1b9a-4711-9e78-176c193f0345";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6985fe93-1b9a-4711-9e78-176c193f0345";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8462A68140FF64F000E464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6985fe93-1b9a-4711-9e78-176c193f0345";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B8462A6A140FF64F000E464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS iPhone Test App/APNS iPhone Test App-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "APNS iPhone Test App/APNS iPhone Test App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = PushTest;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8462A6B140FF64F000E464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS iPhone Test App/APNS iPhone Test App-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "APNS iPhone Test App/APNS iPhone Test App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = PushTest;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8462A6D140FF64F000E464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APNS iPhone Test App.app/APNS iPhone Test App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS iPhone Test AppTests/APNS iPhone Test AppTests-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "APNS iPhone Test AppTests/APNS iPhone Test AppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B8462A6E140FF64F000E464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APNS iPhone Test App.app/APNS iPhone Test App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS iPhone Test AppTests/APNS iPhone Test AppTests-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "APNS iPhone Test AppTests/APNS iPhone Test AppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		B8ABE09F14115AB100314B40 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6985fe93-1b9a-4711-9e78-176c193f0345";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6985fe93-1b9a-4711-9e78-176c193f0345";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		B8ABE0A014115AB100314B40 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Christopher Maeda";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS iPhone Test App/APNS iPhone Test App-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "APNS iPhone Test App/APNS iPhone Test App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = PushTest;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7604B4BE-26B5-4500-B9A6-8181088AEAF8";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		B8ABE0A114115AB100314B40 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APNS iPhone Test App.app/APNS iPhone Test App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS iPhone Test AppTests/APNS iPhone Test AppTests-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "APNS iPhone Test AppTests/APNS iPhone Test AppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8462A2C140FF64F000E464A /* Build configuration list for PBXProject "APNS iPhone Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8462A67140FF64F000E464A /* Debug */,
+				B8462A68140FF64F000E464A /* Release */,
+				B8ABE09F14115AB100314B40 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8462A69140FF64F000E464A /* Build configuration list for PBXNativeTarget "APNS iPhone Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8462A6A140FF64F000E464A /* Debug */,
+				B8462A6B140FF64F000E464A /* Release */,
+				B8ABE0A014115AB100314B40 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8462A6C140FF64F000E464A /* Build configuration list for PBXNativeTarget "APNS iPhone Test AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8462A6D140FF64F000E464A /* Debug */,
+				B8462A6E140FF64F000E464A /* Release */,
+				B8ABE0A114115AB100314B40 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8462A29140FF64F000E464A /* Project object */;
+}
